@@ -1,0 +1,45 @@
+.articleContainer {
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.blogPicture {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.blogBy {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.authorImage {
+  height: 50px;
+  width: 50px;
+  border-radius: 30%;
+}
+
+.authorName {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.title {
+  text-align: center;
+  font-size: 31px;
+  font-weight: bolder;
+}
+
+.postArticle {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: justify;
+  text-justify: inter-word;
+  text-decoration: none;
+}
